@@ -9,11 +9,23 @@ import c6 from '../Charger_Customs_Free_Psd_Template-assets/389488_shevrole_kama
 import c7 from '../Charger_Customs_Free_Psd_Template-assets/photo_2017-10-26_23-39-16.png'
 import c8 from '../Charger_Customs_Free_Psd_Template-assets/Ford-GT-1.png'
 import c9 from '../Charger_Customs_Free_Psd_Template-assets/wallpaper.wiki-1970-Dodge-Charger-HD-Wallpaper-PIC-WPD0014651.png'
+import c10 from '../Charger_Customs_Free_Psd_Template-assets/123.png'
+import c11 from '../Charger_Customs_Free_Psd_Template-assets/1234.png'
+import c12 from '../Charger_Customs_Free_Psd_Template-assets/12345.png'
+import c13 from '../Charger_Customs_Free_Psd_Template-assets/123456.png'
 
 
-
-const Projects = () => {
-
+class Projects extends React.Component  {
+state={
+    isClicked:false
+}
+AddCar=()=>{
+    this.setState({isClicked:true})
+ }
+ DelCar=()=>{
+    this.setState({isClicked:false})
+ }
+render(){
     return (
         <div className={s.Projects}>
              <div className={s.Name}>Projects</div>
@@ -30,10 +42,21 @@ const Projects = () => {
                <img src={c8} className={s.car8}/>
                 <img src={c9} className={s.car9}/>
              </div>
-             
-            <div className={s.buttons}><button href='https://yandex.ru/images/search?text=cars&from=tabbar' className={s.button}><a >MORE</a></button></div>  
+             {this.state.isClicked===true &&  
+             <div>
+             <img src={c10} className={s.car10}/>
+             <img src={c11} className={s.car11}/>
+             <img src={c12} className={s.car12}/>
+             <img src={c13} className={s.car13}/>
+             </div>}
+             {this.state.isClicked===false ?
+            <div className={s.buttons}><button onClick={this.AddCar} className={s.button}>MORE</button></div>:
+            <div className={s.buttons}><button onClick={this.DelCar} className={s.button}>Hide</button></div>}
+            
+          
         </div>
         
     )
+}
 }
 export default Projects

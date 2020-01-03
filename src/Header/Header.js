@@ -11,13 +11,13 @@ const Header = () => {
                 <span className={s.Icons}>
                <Logo/>
                </span>
-                <span className={s.bar}>
+                <div className={s.bar}>
                     <ul>
                       <li>   <Link to='aboutus' smooth={true}>ABOUT US</Link></li>
                         <li> <Link to='services' smooth={true}>SERVICES</Link></li>
                         <li><Link to='projects' smooth={true}>PROJECTS</Link></li>
                     </ul>
-                </span>
+                </div>
                 <span className={s.Menu}>
                     <div className={s.MenuImg}> <img src={menu} /></div>
                     <div className={s.MenuWord}>Menu</div>
