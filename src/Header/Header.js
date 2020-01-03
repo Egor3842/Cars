@@ -18,10 +18,6 @@ const Header = () => {
                         <li><Link className={s.Link} to='projects' smooth={true}>PROJECTS</Link></li>
                     </ul>
                 </div>
-                <span className={s.Menu}>
-                    <div className={s.MenuImg}> <img src={menu} /></div>
-                    <div className={s.MenuWord}>Menu</div>
-                </span>
             </div>
             <div className={s.Chargers}>
                 <div className={s.MainText}>

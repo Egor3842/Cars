@@ -13,14 +13,7 @@
 .Icons{
     padding-top:41px;
 }
-.Menu{
-    margin-top: 55px;
-    font-family: 'Kulim Park', sans-serif;
-    grid-area: M;
-    display: grid;
-    grid-template-areas:'img word' ;
-    grid-template-columns: 1fr 10fr;
-}
+
 .icons{
     margin-left: 20px;
     grid-area: ic;
@@ -46,13 +39,7 @@
     font-size: 7px;
     grid-area: cu;
 }
-.MenuWord{
-    margin-left: 10px;
-    grid-area: word;
-}
-.MenuImg{
-    grid-area: img;
-}
+
 .bar{
     margin-top: 41px;
     margin-left:420px;
