@@ -12,7 +12,7 @@ const Service = () => {
             <div className={s.info}>
                 <div className={s.MainText}>
                <div className={s.tunings}>Tuning</div>
-            </div>
+                </div>
             </div>   
              
             <div className={s.restolation}>

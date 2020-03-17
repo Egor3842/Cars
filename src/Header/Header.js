@@ -31,8 +31,6 @@ const Header = () => {
                 <div className={s.More}>
                     <a href='#' className={s.ref}>READ MORE</a>
                 </div>
-                <div className={s.line}>
-                </div>
             </div>
             <div className={s.End}>
                 <div className={s.lastbar}>

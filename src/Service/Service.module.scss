@@ -6,13 +6,15 @@
 }
 .disc{
     padding-top: 116px;
-    margin-left: 300px;
+   
 }
 .text{
     font-family: 'Playfair Display', serif;  
     font-size: 50px;
     font-weight: 600;
     color: white;
+    text-align: center;
+    margin-right: 800px;
    
 }
 .stick{
@@ -22,13 +24,15 @@
     margin-top: 5px;
 }
 .cars{
-    margin-top: 70px;
+    position: relative;
+    top:30px;
     display: grid;
     grid-template-areas:'i res rep' ;
     grid-template-columns: 1fr 1fr 1fr;
     height: 348px;
     width: 1140px;
-    margin-left: 300px;
+    text-align: center;
+    margin: 0 auto;
 }
 .restolation{
     background-image: url('../Charger_Customs_Free_Psd_Template-assets/semen-borisov-361522.png');

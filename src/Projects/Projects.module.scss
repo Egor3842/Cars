@@ -5,58 +5,23 @@
     text-align: center;  
 }
 .Projects{
-    padding-top: 150px;
-    
+    padding-top: 200px;
+
 }
 .firstcars{
     margin-top: 100px;
-    display: inline-block;
+    display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-rows: 250px;
+  grid-auto-flow: dense;
 }
-.car1{
-    width: 370px;
+.firstcars img{
+    height: 15em;
 }
-
-.car2{
-    width: 400px;
-    margin-left: 30px;
-}
-
-.car3{
-    width: 457px;
-    margin-left: 30px;
-}
-
-.car4{
-    width: 370px;
-    margin-left: 30px;
-}
-
-
-.car6{
-    width: 385px;
-    margin-left: 30px;
-}
-.car7{
-    width: 480px;
-    margin-left: 30px;
-
-}
-.car8{
-    width: 385px;
-    margin-left: 30px;
-}
-.car9{
-    width: 275px;
-    margin-left: 30px;
-}
-.car10,
-.car11,
-.car12,
-.car13
-{
-    width: 400px;
-    padding-left: 20px;
-    padding-top: 20px;
+.secondcars img{
+    margin-top: 20px;
+    height: 15em;
 }
 .button{
    
